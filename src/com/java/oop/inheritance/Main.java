@@ -7,7 +7,7 @@ public class Main {
         Product product = new Product(43,"Lenovo Laptop",50000,4.5f,2357,(byte)18,true,"Lenovo","Laptops");
         int regularCustomerPrice = product.calculateFinalPrice(regularCustomer);
         int premiumCustomerPrice = product.calculateFinalPrice(premiumCustomer);
-        System.out.println(regularCustomerPrice);
-        System.out.println(premiumCustomerPrice);
+        System.out.println("Regular Customer Price: " + regularCustomerPrice);
+        System.out.println("Premium Customer Price: " + premiumCustomerPrice);
     }
 }

@@ -9,4 +9,11 @@ public class PremiumCustomer extends Customer{
         this.shippingCharges = shippingCharges;
         this.memberShip = memberShip;
     }
+
+    @Override
+    public void displayDetails() {
+        super.displayDetails();
+        System.out.println("Shipping Charges: " + shippingCharges);
+        System.out.println("Membership: " + memberShip);
+    }
 }
